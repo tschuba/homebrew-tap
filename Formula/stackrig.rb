@@ -1,26 +1,26 @@
 class Stackrig < Formula
   desc "Runs Coolify-generated compose stacks without Coolify"
   homepage "https://github.com/tschuba/stackrig"
-  version "0.2.0"
+  version "1.0.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/tschuba/stackrig/releases/download/v0.2.0/strig-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "615298fb630dd633ae5774a639ed3512ca6222036faeadc18a809dd24fe35631"
+      url "https://github.com/tschuba/stackrig/releases/download/v1.0.0/strig-1.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "65e6ee2eb114e00087cd159f2589c82bcedefe202a4742ebca3e58f035023d42"
     end
     on_intel do
-      url "https://github.com/tschuba/stackrig/releases/download/v0.2.0/strig-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "bfb4d8ce5f0b5845f722b591fd01af2e42956b4e76958a21613c3c25a50be5a6"
+      url "https://github.com/tschuba/stackrig/releases/download/v1.0.0/strig-1.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b46bfdfbe372039159e34d512200bd809ea4798fd3f600ac163afcb764f26345"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/tschuba/stackrig/releases/download/v0.2.0/strig-0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0ca5ae17b0abca50f674c9a0eee74229809f438f813c8ab60ad2e86991d0d528"
+      url "https://github.com/tschuba/stackrig/releases/download/v1.0.0/strig-1.0.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "5c07f9c67dc472132cb7ae0ffcad8894a4a3253ab9b9cd2cf9e6cdcf5e0db2be"
     end
     on_intel do
-      url "https://github.com/tschuba/stackrig/releases/download/v0.2.0/strig-0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "ebd784addeb073d2cd799c5e87467035a0f956dfca15555c5ff5d2dbd2c9bb0b"
+      url "https://github.com/tschuba/stackrig/releases/download/v1.0.0/strig-1.0.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "24dfee503f0901913c3f9c2df647fb26d1494ce271ef9247fb4c45adc1503b1e"
     end
   end
 
